@@ -1,0 +1,4 @@
+[toolchain]
+channel = "nightly"
+target = "i386-unknown-none"
+components = ["llvm-tools-preview", "rust-src"]

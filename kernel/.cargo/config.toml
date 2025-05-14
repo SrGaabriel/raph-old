@@ -1,0 +1,6 @@
+[build]
+target = "i386-kernel.json"
+rustflags = ["-C", "link-arg=-Tlinker.ld"]
+
+[unstable]
+build-std = ["core"]
